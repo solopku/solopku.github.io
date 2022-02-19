@@ -1,0 +1,11 @@
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+
+title: "Cai Shaofeng"
+
+author: 
+  name: "Cai Shaofeng"
+  bio: "Research Fellow, Department of Computer Science, National University of Singapore"
+  location: "Singapore"
+  email: shaofeng@comp.nus.edu.sg
