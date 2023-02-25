@@ -9,6 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <style>
+		#secret-div {
+	      display: none;
+	    }
+	    #secret-button {
+			  height: 4px;
+			  width: 2px;
+			  border: none;
+		}
+  </style>
   <meta name="google-site-verification" content="zf3byKaPYIX4i9-Aa_3XMcKquQHIkDYeUKwxqbCTp48" />
 </head>
 
@@ -358,11 +368,37 @@
           </tr>
         </tbody></table>
 
+        <div id="secret-div">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              	<script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5l58sa3u63n&amp;m=6&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;s=170" async="async"></script>
+								
+				<a href="https://info.flagcounter.com/CAk6">
+					<img src="https://s01.flagcounter.com/count/CAk6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_9/viewers_3/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0">
+				</a>
+            </td>
+          </tr>
+        </tbody></table>
+        </div>
+
+        <button id="secret-button" ondblclick="toggleSecretDiv()"></button>
 
       </td>
     </tr>
   </table>
-  
+
+
+  <script>
+    function toggleSecretDiv() {
+      var div = document.getElementById("secret-div");
+      if (div.style.display === "none") {
+        div.style.display = "block";
+      } else {
+        div.style.display = "none";
+      }
+    }
+  </script>
 
 </body>
 
